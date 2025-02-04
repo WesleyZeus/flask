@@ -1,1 +1,1 @@
-wev: gunicorn -b :$PORT microblog:app
+web: gunicorn -b :$PORT microblog:app
